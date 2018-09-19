@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /upload/
+Disallow: /php/
+Disallow: /css/
+Disallow: /js/
+Disallow: /fonts/
+
+Sitemap: http://localhost/sitemap.php
