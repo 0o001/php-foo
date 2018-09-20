@@ -38,5 +38,5 @@ function EmptyArgs()
 	return true;
 }
 
-$BASE_URL = 'http://localhost/php-foo';
+$BASE_URL = 'http://localhost/php-foo-grunt';
 ?>
