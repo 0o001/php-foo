@@ -48,4 +48,4 @@ if(!isset($description))
 <script src="<?= $BASE_URL ?>/js/library/bootstrap.min.js"></script>
 -->
 
-<link rel="stylesheet" type="text/css" href="<?= $BASE_URL ?>/css/default.css">
+<link rel="stylesheet" type="text/css" href="<?= $BASE_URL ?>/css/min/default.min.css">

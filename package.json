@@ -1,0 +1,24 @@
+{
+  "name": "php-foo",
+  "version": "1.0.0",
+  "description": "Genellikle statik websitelerimde kullandığım şablonum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafauzun0/php-foo.git"
+  },
+  "author": "mustafauzun0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mustafauzun0/php-foo/issues"
+  },
+  "homepage": "https://github.com/mustafauzun0/php-foo#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-uglify": "^4.0.0"
+  }
+}
