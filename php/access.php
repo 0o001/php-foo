@@ -5,12 +5,12 @@ if (!defined('myPassword'))
 		header('Location: ./');
 	else
 	{
-		echo " 
-			<script> window.location.href=\"./\"</script>
+		echo '
+			<script> window.location.href="./"</script>
 			<noscript>
-			<meta http-equiv=\"refresh\" content=\"0; url=./\">
+			<meta http-equiv="refresh" content="0; url=./">
 			</noscript>
-			";
+			';
 	}
 	
 	die('Giriş izni yok.');
