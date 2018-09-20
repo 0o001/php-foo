@@ -1,6 +1,6 @@
 <?php
 require_once 'access.php';
-require_once 'php/access.php';
+require_once 'php/access.php'; //If couldn't include (sometimes needed)
 
 session_start();
 date_default_timezone_set('Europe/Istanbul');

@@ -43,9 +43,9 @@ if(!isset($description))
 <link rel="icon" type="image/png" href="<?= $BASE_URL ?>/favicon.png" />
 
 <!--
-<link rel="stylesheet" href="<?= $BASE_URL ?>/css/lib/bootstrap.min.css">
-<script src="<?= $BASE_URL ?>/js/lib/jquery.min.js"></script>
-<script src="<?= $BASE_URL ?>/js/lib/bootstrap.min.js"></script>
+<link rel="stylesheet" href="<?= $BASE_URL ?>/css/library/bootstrap.min.css">
+<script src="<?= $BASE_URL ?>/js/library/jquery.min.js"></script>
+<script src="<?= $BASE_URL ?>/js/library/bootstrap.min.js"></script>
 -->
 
 <link rel="stylesheet" type="text/css" href="<?= $BASE_URL ?>/css/default.css">

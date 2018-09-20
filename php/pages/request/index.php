@@ -16,7 +16,7 @@ if($_GET && isset($_GET['fooVariable']))
     //My Codes
 
     //Example
-    //$returnVariable = 'hi';
+    $returnVariable = 'hi';
 }
 
 ?>
