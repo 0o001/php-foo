@@ -4,13 +4,7 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 #DirectoryIndex maintenance.php
-RewriteRule ^(.+)$ read.php?q=$1 [L,QSA]
-
-Options +FollowSymLinks
-RewriteRule ^favicon.ico favicon.ico [L]
-
-Options All -Indexes
-IndexOptions +Charset=UTF-8
+#RewriteRule ^(.+)$ foo.php?q=$1 [L,QSA] #for seo url
 
 #Belleğe alınmış dosyalar için son düzenleme kontrolünü iptal et
 Header unset ETag
