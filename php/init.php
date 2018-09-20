@@ -30,12 +30,12 @@ function Filter($variable = null)
 
 function EmptyArgs()
 {
-    foreach(func_get_args() as $arg)
-        if(empty($arg))
-            continue;
-        else
-            return false;
-    return true;
+	foreach(func_get_args() as $arg)
+		if(empty($arg))
+			continue;
+		else
+			return false;
+	return true;
 }
 
 $BASE_URL = 'http://localhost/php-foo';
